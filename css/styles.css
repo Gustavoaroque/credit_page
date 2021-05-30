@@ -1,15 +1,41 @@
 * {
-    background-color: #1A1A2E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+
 }
-#div-user-cards {
+.main__div {
     display:flex ;
     flex-flow: row wrap;
     justify-content: space-around;
+    align-items: center;
 
 }
 section {
     padding: 10px;
-    border: 10px;
+    /* border: 10px; */
     border: thistle;
     border-style: solid;
+}
+.header__navbar{
+    height: 50px;
+    background: #363D45;
+    display: flex;
+    justify-content: space-between;
+}
+.header__navbar a{
+    color: #FFF;
+    text-decoration: none;
+    block-size: 20px;
+    padding: 15px;
+    transition: background-color 0.5s;
+}
+.header__navbar a:hover {
+    background: #24282E ;
+    
+}
+.header__div{
+    /* color: thistle; */
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
