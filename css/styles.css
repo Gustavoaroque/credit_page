@@ -1,0 +1,15 @@
+* {
+    background-color: #1A1A2E;
+}
+#div-user-cards {
+    display:flex ;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+section {
+    padding: 10px;
+    border: 10px;
+    border: thistle;
+    border-style: solid;
+}
