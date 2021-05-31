@@ -1,18 +1,18 @@
 * {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    /* background-color: lawngreen; */
 
 }
 .main__div {
     display:flex ;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content:space-evenly;
     align-items: center;
 
 }
 section {
     padding: 10px;
-    /* border: 10px; */
     border: thistle;
     border-style: solid;
 }
@@ -38,4 +38,58 @@ section {
     display: flex;
     text-align: center;
     align-items: center;
+}
+
+.div__section--cards{
+    background-color: #C1C3C1;
+    width: 45%;
+    padding: 15px;
+    box-sizing: content-box;
+    border: #363D45;
+    border-style: solid;
+    border-radius: 15px;
+    margin-top: 25px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.transactions {
+    display: flex;
+    justify-content: center;
+}
+.div__section--table{
+    width: inherit;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.card__div__buttons{
+    /* background-color: lightpink; */
+    display: flex;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+
+}
+.card__div__buttons input{
+    width: 100px;
+    box-sizing: content-box;
+    margin-left: 15px;
+    border-radius: 5px;
+    transition: background-color 0.5s, border;
+    
+}
+.card__div__buttons input:hover{
+    background-color: lightblue;
 }
